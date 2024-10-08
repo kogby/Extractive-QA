@@ -11,7 +11,7 @@ FILE_ID_CHECKPOINTS="1eUNZpQD7Q1iJhk7m-G0X7magecacixkC"
 
 # 定義下載檔案的輸出路徑
 OUTPUT_DATA="data.zip"
-OUTPUT_CHECKPOINTS="best_model_checkpoints.zip"
+OUTPUT_CHECKPOINTS="checkpoint.zip"
 
 # 下載 data.zip
 echo "正在下載 data.zip..."
@@ -29,6 +29,6 @@ if [ ! -d data ]; then
 fi
 
 if [ ! -d best_model_checkpoints ]; then
-	echo "正在解壓 best_model_checkpoints.zip..."
-    unzip best_model_checkpoints.zip
+	echo "正在解壓 checkpoint.zip..."
+    unzip checkpoint.zip
 fi
