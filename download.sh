@@ -7,7 +7,7 @@
 # fi
 
 FILE_ID_DATA="1hmzh6OPY_6rdALhwxH0x_NakXeAG5p68"
-FILE_ID_CHECKPOINTS="1eUNZpQD7Q1iJhk7m-G0X7magecacixkC"
+FILE_ID_CHECKPOINTS="1JcgLVUDHPXmXAe5v6rnpa-wRejrNKrhN"
 
 # 定義下載檔案的輸出路徑
 OUTPUT_DATA="data.zip"
