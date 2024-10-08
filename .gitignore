@@ -1,1 +1,8 @@
 .DS_Store
+__pycache__
+__MACOSX
+node_modules
+data.zip
+best_model_checkpoints.zip
+data/
+best_model_checkpoints/
