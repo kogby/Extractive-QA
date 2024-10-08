@@ -18,8 +18,8 @@ wait
 
 python qa/run_qa.py \
 	--do_predict \
-	--model_name_or_path best_model_checkpoints/qa \
-	--output_dir checkpoint/qa \
+	--model_name_or_path checkpoint/qa \
+	--output_dir qa/ \
 	--test_file mc_test_pred.json \
 	--pad_to_max_length \
 	--max_seq_length 512 \
