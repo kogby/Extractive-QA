@@ -1,4 +1,4 @@
-python main_preprocess.py --preprocess mc
+python preprocess.py --preprocess mc
 
 wait
 

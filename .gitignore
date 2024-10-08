@@ -3,6 +3,6 @@ __pycache__
 __MACOSX
 node_modules
 data.zip
-best_model_checkpoints.zip
+checkpoint.zip
 data/
-best_model_checkpoints/
+checkpoint/

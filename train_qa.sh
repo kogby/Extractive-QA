@@ -1,5 +1,7 @@
 python preprocess.py --preprocess qa
 
+wait
+
 python qa/run_qa.py \
   --do_train \
   --do_eval \
