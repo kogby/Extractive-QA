@@ -10,7 +10,7 @@ wait
 
 python mc/test_mc.py \
 	--test_file data/test_mc.json \
-	--ckpt_dir best_model_checkpoints/mc \
+	--ckpt_dir checkpoint/mc \
 	--test_batch_size 32 \
 	--out_file mc_test_pred.json \
 
@@ -19,7 +19,7 @@ wait
 python qa/run_qa.py \
 	--do_predict \
 	--model_name_or_path best_model_checkpoints/qa \
-	--output_dir qa/ \
+	--output_dir checkpoint/qa \
 	--test_file mc_test_pred.json \
 	--pad_to_max_length \
 	--max_seq_length 512 \

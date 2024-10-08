@@ -4,7 +4,7 @@ python qa/run_qa.py \
   --do_train \
   --do_eval \
   --model_name_or_path hfl/chinese-roberta-wwm-ext-large \
-  --output_dir  question_answering/output1 \
+  --output_dir  checkpoint/qa \
   --train_file data/train_qa.json \
   --validation_file data/valid_qa.json \
   --cache_dir ./cache/qa \
