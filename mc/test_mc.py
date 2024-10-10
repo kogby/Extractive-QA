@@ -1,22 +1,17 @@
 import argparse
 import json
-import logging
-import math
-import os
-import random
 import numpy as np
+import datasets
+import torch
+import transformers
+
 from dataclasses import dataclass
 from itertools import chain
 from pathlib import Path
 from typing import Optional, Union
-
-import datasets
-import torch
-from datasets import load_dataset, load_metric, Dataset
+from datasets import Dataset
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
-
-import transformers
 from accelerate import Accelerator
 from accelerate.logging import get_logger
 from accelerate.utils import set_seed
@@ -32,7 +27,7 @@ from transformers import (
     default_data_collator,
     get_scheduler,
 )
-from transformers.utils import PaddingStrategy, check_min_version, get_full_repo_name, send_example_telemetry
+from transformers.utils import PaddingStrategy
 
 
 
