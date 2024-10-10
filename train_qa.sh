@@ -15,7 +15,7 @@ python qa/run_qa.py \
   --per_gpu_eval_batch_size 10 \
   --eval_accumulation_steps  8 \
   --learning_rate 3e-5 \
-  --num_train_epochs 10 \
+  --num_train_epochs 3 \
   --max_seq_length 512 \
   --doc_stride 128 \
   --warmup_ratio 0.1 \

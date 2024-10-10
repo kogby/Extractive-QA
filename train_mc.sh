@@ -11,7 +11,7 @@ python mc/run_swag_no_trainer.py \
     --pad_to_max_length \
     --max_seq_length 512 \
     --learning_rate 3e-5 \
-    --num_train_epochs 10 \
+    --num_train_epochs 3 \
     --per_device_train_batch_size 8 \
     --gradient_accumulation_steps 4 \
     --report_to wandb
